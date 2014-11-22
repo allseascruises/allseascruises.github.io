@@ -239,14 +239,15 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
+
+<script>
+    $.backstretch("img/Balcony.jpg");
+</script>
+
 <!-- Maps js -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAec4dr47bLbSmPRN0la9L2Shf62afE7oY&sensor=false"></script>
 <script>
     function init(){var e=new google.maps.LatLng(26.546101,-81.913917);var t={zoom:13,center:e,styles:[{featureType:"water",elementType:"geometry",stylers:[{visibility:"on"},{color:"#aee2e0"}]},{featureType:"landscape",elementType:"geometry.fill",stylers:[{color:"#abce83"}]},{featureType:"poi",elementType:"geometry.fill",stylers:[{color:"#769E72"}]},{featureType:"poi",elementType:"labels.text.fill",stylers:[{color:"#7B8758"}]},{featureType:"poi",elementType:"labels.text.stroke",stylers:[{color:"#EBF4A4"}]},{featureType:"poi.park",elementType:"geometry",stylers:[{visibility:"simplified"},{color:"#8dab68"}]},{featureType:"road",elementType:"geometry.fill",stylers:[{visibility:"simplified"}]},{featureType:"road",elementType:"labels.text.fill",stylers:[{color:"#5B5B3F"}]},{featureType:"road",elementType:"labels.text.stroke",stylers:[{color:"#ABCE83"}]},{featureType:"road",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"road.local",elementType:"geometry",stylers:[{color:"#A4C67D"}]},{featureType:"road.arterial",elementType:"geometry",stylers:[{color:"#9BBF72"}]},{featureType:"road.highway",elementType:"geometry",stylers:[{color:"#EBF4A4"}]},{featureType:"transit",stylers:[{visibility:"off"}]},{featureType:"administrative",elementType:"geometry.stroke",stylers:[{visibility:"on"},{color:"#87ae79"}]},{featureType:"administrative",elementType:"geometry.fill",stylers:[{color:"#7f2200"},{visibility:"off"}]},{featureType:"administrative",elementType:"labels.text.stroke",stylers:[{color:"#ffffff"},{visibility:"on"},{weight:4.1}]},{featureType:"administrative",elementType:"labels.text.fill",stylers:[{color:"#495421"}]},{featureType:"administrative.neighborhood",elementType:"labels",stylers:[{visibility:"off"}]}]};var n=document.getElementById("map");var r=new google.maps.Map(n,t);var i=new google.maps.Marker({position:e,map:r})}google.maps.event.addDomListener(window,"load",init)
-</script>
-
-<script>
-    $.backstretch("img/Balcony.jpg");
 </script>
 
 <script>
@@ -281,6 +282,5 @@ $(document).ready(function(){
 <script>
     $(function(){$("a.page-scroll").bind("click",function(e){var t=$(this);$("html, body").stop().animate({scrollTop:$(t.attr("href")).offset().top},1500,"easeInOutExpo");e.preventDefault()})});$("body").scrollspy({target:".navbar-fixed-top"});$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()})
 </script>
-
 </body>
 </html>
