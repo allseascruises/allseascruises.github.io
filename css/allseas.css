@@ -11,7 +11,7 @@ body,section h3.section-subheading{font-family:'Alegreya','Helvetica Neue',Helve
 #BrowseModal .btn{margin-top:30px;padding:13px 30px}
 #BrowseModal .modal-body>div{text-align:center;height:350px;margin:0;width:99.9%}
 #BrowseModal .modal-backdrop{height:1870px!important}
-blockquote{clear:both;font-style:italic;margin-left:10px;margin-right:10px;padding:10px 10px 0 50px;position:relative;quotes:none;background:url(img/quote.png) 0 0 no-repeat;border:0;font-size:120%;line-height:200%}
+blockquote{clear:both;font-style:italic;margin-left:10px;margin-right:10px;padding:10px 10px 0 50px;position:relative;quotes:none;background:url(../img/quote.png) 0 0 no-repeat;border:0;font-size:120%;line-height:200%}
 .introicons h2{font-family:'Dancing Script','Helvetica Neue','Oswald'}
 .introicons .col-md-4{margin-top:45px}
 #about a,a.quicklink,a.fc-more{color:#0a5eb2}
@@ -85,6 +85,9 @@ header .intro-text .intro-heading{margin-bottom:50px;font-size:90px;line-height:
 .navbar-brand>img{-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
 .navbar-default.navbar-shrink .navbar-brand>img{height:51px}
 .navbar-brand>img{height:71px}
+}
+@media(max-width:400px) {
+blockquote{font-size:100%;line-height:170%;padding:10px 2px 0 50px;}
 }
 .bx-wrapper{position:relative;margin:0 auto 60px;padding:0;*zoom:1}
 .bx-wrapper img{max-width:100%;display:block}
