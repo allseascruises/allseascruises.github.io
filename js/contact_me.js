@@ -12,7 +12,7 @@ $(function() {
             var subject = $("input#subject").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
-            var message = $("textarea#message").val();
+            var message = $("textarea#message").val().replace(/\n/g,"<br>");
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -22,7 +22,7 @@ $(function() {
                 type: "POST",
                   url: "https://mandrillapp.com/api/1.0/messages/send.json",
                   data: {
-                    'key': 'ulnmYDlr5KQJaWSOG53iFw',
+                    'key': '5zFFaXjElKmZ_aDTNJfvNA',
                     'message': {
                       'from_email': email,
                       "from_name": name,
@@ -34,7 +34,7 @@ $(function() {
                         ],
                       'autotext': 'true',
                       'subject': subject,
-                      'html': '<h2>New contact form submission from <strong>'+name+'</strong> ('+phone+')</h2>'+message,
+                      'html': '<h2>New contact form submission from <span style="color:#60A066">'+name+'</span> - '+phone+'</h2><p>'+message+'</p>',
                     }
                   },
                 success: function() {
