@@ -19,17 +19,24 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://forms.brace.io/allseascruises@cs.com",
                 type: "POST",
-                data: {
-                    name: name,
-                    subject:subject,
-                    phone: phone,
-                    email: email,
-                    message: message
-                },
-                dataType: "json",
-                cache: false,
+                  url: "https://mandrillapp.com/api/1.0/messages/send.json",
+                  data: {
+                    'key': 'ulnmYDlr5KQJaWSOG53iFw',
+                    'message': {
+                      'from_email': email,
+                      "from_name": name,
+                      'to': [
+                          {
+                            'email': 'sdollman@allseascruises.com',
+                            'type': 'to'
+                          }
+                        ],
+                      'autotext': 'true',
+                      'subject': subject,
+                      'html': '<h2>New contact form submission from <strong>'+name+'</strong> ('+phone+')</h2>'+message,
+                    }
+                  },
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
@@ -39,7 +46,6 @@ $(function() {
                         .append("<p>Your message has been sent. Thank you, " + firstName + "!</p>");
                     $('#success > .alert-success')
                         .append('</div>');
-
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },

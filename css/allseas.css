@@ -2,7 +2,7 @@ body{height:100%;width:100%;overflow-x:hidden;font-size:15px}
 body,section h3.section-subheading{font-family:'Alegreya','Helvetica Neue',Helvetica,Arial,sans-serif}
 .intro-heading{text-shadow:1px 1px 5px #000}
 #BrowseModal .modal-dialog{position:absolute;width:90%;left:5%}
-#BrowseModal .modal-content{background:-webkit-linear-gradient(90deg,#fe8c00 10%,#f83600 90%);background:-moz-linear-gradient(90deg,#fe8c00 10%,#f83600 90%);background:-ms-linear-gradient(90deg,#fe8c00 10%,#f83600 90%);background:-o-linear-gradient(90deg,#fe8c00 10%,#f83600 90%);background:linear-gradient(90deg,#fe8c00 10%,#f83600 90%)}
+#BrowseModal .modal-content{background:-webkit-linear-gradient(90deg,rgba(254, 140, 0, 0.8) 10%,rgba(248, 54, 0, 0.8) 90%);background:-moz-linear-gradient(90deg,rgba(254, 140, 0, 0.8) 10%,rgba(248, 54, 0, 0.8) 90%);background:-ms-linear-gradient(90deg,rgba(254, 140, 0, 0.8) 10%,rgba(248, 54, 0, 0.8) 90%);background:-o-linear-gradient(90deg,rgba(254, 140, 0, 0.8) 10%,rgba(248, 54, 0, 0.8) 90%);background:linear-gradient(90deg,rgba(254, 140, 0, 0.8) 10%,rgba(248, 54, 0, 0.8) 90%)}
 #BrowseModal .close{margin-top:-7px;font-size:35px}
 #BrowseModal .modal-body{padding:0;margin:0}
 #BrowseModal .modal-header{padding:9px;border:none;min-height:41px}
@@ -24,8 +24,8 @@ section#contact{background:rgba(59,89,153,0.5);padding-bottom:0}
 #contact .container{margin-top:-12px}
 #contact h2.section-heading{color:#F0F0F0}
 #contact .btn-xl{margin-top:30px}
-footer{padding:25px 0 12px;background:rgba(255,255,255,0.82);text-align:center;line-height:40px}
-footer p{font-family:'Dancing Script','Helvetica Neue','Oswald';font-size:20px}
+footer{padding:25px 0 12px;background:rgba(59, 89, 153, 0.75);text-align:center;line-height:40px}
+footer p{font-family:'Dancing Script','Helvetica Neue','Oswald';font-size:20px;color:#FAFAFA}
 #about{background:rgba(237,237,237,0.76)}
 .contactboxes{color:#FAFAFA;margin-top:50px}
 .contactboxes h1{margin-top:10px}
@@ -87,7 +87,7 @@ header .intro-text .intro-heading{margin-bottom:50px;font-size:90px;line-height:
 .navbar-brand>img{height:71px}
 }
 @media(max-width:400px) {
-blockquote{font-size:100%;line-height:170%;padding:10px 2px 0 50px;}
+blockquote{font-size:14px;line-height:170%;padding:10px 2px 0 50px;}
 }
 .bx-wrapper{position:relative;margin:0 auto 60px;padding:0;*zoom:1}
 .bx-wrapper img{max-width:100%;display:block}
