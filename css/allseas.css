@@ -21,7 +21,7 @@ blockquote{clear:both;font-style:italic;margin-left:10px;margin-right:10px;paddi
 section{padding:80px 0 100px;width:97%;max-width: 1470px; margin: 0 auto;box-shadow:0px 0px 24px rgba(0,0,0,0.5);margin-bottom:15px;border-radius:10px}
 section#contact{background:rgba(59,89,153,0.5);padding-bottom:0}
 #contact .container{margin-top:-12px}
-#contact h2.section-heading{color:#F0F0F0}
+#contact h2.section-heading{color:#F0F0F0;margin-bottom:0}
 #contact .btn-xl{margin-top:30px}
 footer{padding:25px 0 12px;background:rgba(59, 89, 153, 0.75);text-align:center;line-height:40px;box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.5)}
 footer p{font-family:'Dancing Script','Helvetica Neue','Oswald';font-size:20px;color:#FAFAFA}
@@ -73,7 +73,6 @@ body{webkit-tap-highlight-color:#fed136}
 ::selection{text-shadow:none;background:#F799A7}
 section#contact .form-control:focus{border-color:#F799A7;box-shadow:none}
 .navbar-default .nav li a{text-transform:uppercase;font-family:'Oswald','Helvetica Neue',Helvetica,Arial,sans-serif}
-#contact h2.section-heading{margin-bottom:0}
 
 @media(min-width:768px) {
 .navbar-nav>li>a{padding-top: 12px;padding-bottom: 12px;margin-top: 3px}
