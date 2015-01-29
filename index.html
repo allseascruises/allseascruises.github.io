@@ -10,16 +10,16 @@
     <title>All Seas Cruises &amp; Travel - Fort Myers, FL</title>
 
     <!-- Bootstrap CSS -->
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/allseas.css">
 
     <!-- Custom Fonts -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -130,6 +130,10 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Subject *" id="subject" required data-validation-required-message="Please enter a subject.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
                                     <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>
                                 </div>
@@ -139,10 +143,6 @@
                                 </div>
                                 <div class="form-group">
                                     <input type="tel" class="form-control" placeholder="Your Phone (Optional)" id="phone">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Subject *" id="subject" required data-validation-required-message="Please enter a subject.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -219,24 +219,20 @@
 
 
     <!-- jQuery / Backstretch  -->
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/custom.backstretch.min.js"></script>
+    <script>$.backstretch("img/Balcony.jpg")</script>
 
     <!-- Bootstrap JavaScript -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
-
-
-<script>
-    $.backstretch("img/Balcony.jpg");
-</script>
 
 <!-- Maps js -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAec4dr47bLbSmPRN0la9L2Shf62afE7oY"></script>
