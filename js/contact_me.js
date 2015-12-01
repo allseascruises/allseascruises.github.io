@@ -34,7 +34,7 @@ $(function() {
                         ],
                       'autotext': 'true',
                       'subject': subject,
-                      'html': '<h2>New contact form submission from <span style="color:#60A066">'+name+'</span> - '+phone+'</h2><p>'+message+'</p>',
+                      'html': '<h2>New contact form submission from <span style="color:#60A066">'+name+'</span> - '+phone+'</h2><div>'+message+'</div>',
                     }
                   },
                 success: function() {
