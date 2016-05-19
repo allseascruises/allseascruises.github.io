@@ -152,12 +152,16 @@ footer p {
     color: #fff;
     margin-top: 50px
 }
+.contactboxes a {
+    color: #FEC425;
+}
 #contact .fa-home {
     font-size: 40px!important;
     margin: 5px 0 14px
 }
 #contact .fa-phone,
-#contact .fa-envelope {
+#contact .fa-envelope,
+#contact .fa-facebook {
     font-size: 34px!important;
     margin: 20px 0 14px
 }
@@ -178,6 +182,9 @@ footer p {
 }
 .contactboxes #box-3 {
     background-color: rgba(24, 24, 24, .7);
+}
+.contactboxes #box-4 {
+    background-color: rgba(16, 16, 16, .7);
     border-radius: 0 0 10px 10px
 }
 .contactboxes i {
@@ -294,16 +301,15 @@ section h3.section-subheading {
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
-    font-size: 15px;
-    background: #282828;
-    color: #d1d1d1
+    font-size: 17px;
+    background: #343434;
+    color: #E9E9E9;
 }
 section#contact .form-group input.form-control {
     height: auto
 }
 section#contact .form-group textarea.form-control {
-    height: 242px;
-    font-size: 16px
+    height: 254px;
 }
 .form-group {
     margin-bottom: 10px
@@ -488,6 +494,18 @@ section#contact .form-control:focus {
     font-size: .85em;
     padding: 10px
 }
+@media(min-width:1000px) {
+    *[id^=box-] {
+        width: 25%!important;
+        float: left!important;
+    }
+    .contactboxes #box-1 {
+        border-radius: 0 0 0 10px
+    }
+    .contactboxes #box-3 {
+        border-radius: 0!important;
+    }
+}
 @media(min-width:768px) {
     .navbar-nav>li>a {
         padding-top: 12px;
@@ -541,7 +559,9 @@ section#contact .form-control:focus {
     }
     *[id^=box-] {
         height: 190px;
-        padding: 40px 0
+        padding: 40px 0;
+        width: 50%;
+        float: left;
     }
     section {
         margin-bottom: 30px
@@ -549,10 +569,10 @@ section#contact .form-control:focus {
     .fa-envelope-o {
         font-size: 24px!important
     }
-    .contactboxes #box-1 {
+    .contactboxes #box-3 {
         border-radius: 0 0 0 10px
     }
-    .contactboxes #box-3 {
+    .contactboxes #box-4 {
         border-radius: 0 0 10px
     }
 }
