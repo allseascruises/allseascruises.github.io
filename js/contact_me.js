@@ -38,7 +38,7 @@ $(function() {
                 failedResponse();
               }
           };
-          var url = 'http://emailrelay.henrygd.me/sendmail' +
+          var url = 'https://emailrelay.henrygd.me/sendmail' +
                       // your key
                       '?key=' + "F_6wkPBmVMsorFVhCoyXCA" +
                       // your email
