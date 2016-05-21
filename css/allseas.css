@@ -82,7 +82,7 @@ blockquote {
     background: url(/img/quote.png) 0 0 no-repeat;
     border: 0;
     font-size: 15px;
-    line-height: 200%
+    line-height: 1.8
 }
 .introicons h2 {
     font-family: Dancing Script, Helvetica Neue, Oswald
@@ -145,7 +145,7 @@ footer p {
     color: #fafafa
 }
 #about {
-    background: rgba(237, 237, 237, .76);
+    background: rgba(246, 246, 246, 0.8);
     padding-bottom: 25px!important
 }
 .contactboxes {
@@ -197,7 +197,7 @@ footer p {
     color: #fed136
 }
 p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.75
 }
 p.large {
