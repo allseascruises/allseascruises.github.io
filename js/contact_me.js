@@ -40,7 +40,7 @@ $(function() {
           };
           var url = 'https://emailrelay.henrygd.me/sendmail' +
                       // your key
-                      '?key=' + "F_6wkPBmVMsorFVhCoyXCA" +
+                      '?key=' + "n_jGlO8L7ioJxA" +
                       // your email
                       '&email=' + encodeURIComponent('suzidollman@gmail.com') +
                       // sender's email
