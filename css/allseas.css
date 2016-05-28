@@ -153,7 +153,7 @@ footer p {
     margin-top: 50px
 }
 .contactboxes a {
-    color: #FEC425;
+    color: #EAB72E;
 }
 #contact .fa-home {
     font-size: 40px!important;
@@ -298,36 +298,6 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400
 }
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-    font-size: 17px;
-    background: #343434;
-    color: #E9E9E9;
-}
-section#contact .form-group input.form-control {
-    height: auto
-}
-section#contact .form-group textarea.form-control {
-    height: 254px;
-}
-.form-group {
-    margin-bottom: 10px
-}
-section#contact .form-group input {
-    padding: 15px
-}
-section#contact::-webkit-input-placeholder,
-section#contact:-moz-placeholder,
-section#contact::-moz-placeholder,
-section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #bbb
-}
-section#contact .text-danger {
-    color: #fff
-}
 .btn:focus,
 .btn:active,
 .btn.active,
@@ -370,10 +340,6 @@ body {
 ::selection {
     text-shadow: none;
     background: #f799a7
-}
-section#contact .form-control:focus {
-    border-color: #f799a7;
-    box-shadow: none
 }
 .navbar-default .nav li a {
     text-transform: uppercase;
@@ -583,8 +549,5 @@ section#contact .form-control:focus {
         padding: 10px 2px 0 50px;
         margin-left: 0;
         margin-right: 6px
-    }
-    section#contact .form-group textarea.form-control {
-        font-size: 15px
     }
 }
