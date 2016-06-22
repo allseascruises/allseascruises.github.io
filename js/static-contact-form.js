@@ -154,7 +154,7 @@
       }
       updateProgress(percent);
       percent += Math.floor(180 / percent);
-      setTimeout(loadIndicator, percent * 15);
+      setTimeout(loadIndicator, percent * 12);
     })();
   }
 
@@ -169,5 +169,5 @@
 
 StaticContactForm.initiate({
   key: 'n_jGlO8L7ioJxA',
-  email: 'suzidollman@gmail.com'
+  email: 'sdollman@allseascruises.com'
 });

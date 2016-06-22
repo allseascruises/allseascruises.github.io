@@ -118,7 +118,7 @@ section {
     border-radius: 10px
 }
 section#contact {
-    background: rgba(59, 89, 153, .5);
+    background: rgba(73, 100, 158, 0.7);
     padding-bottom: 0
 }
 #contact .container {
@@ -133,7 +133,7 @@ section#contact {
 }
 footer {
     padding: 13px 0 5px;
-    background: rgba(59, 89, 153, .75);
+    background: rgba(73, 100, 158, 0.75);
     text-align: center;
     line-height: 40px;
     box-shadow: 0 -1px 5px rgba(0, 0, 0, .5)
