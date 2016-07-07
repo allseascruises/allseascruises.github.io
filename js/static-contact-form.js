@@ -168,6 +168,6 @@
 })();
 
 StaticContactForm.initiate({
-  key: 'n_jGlO8L7ioJxA',
+  key: 'z6hD7zObDQVd-Q',
   email: 'sdollman@allseascruises.com'
 });
