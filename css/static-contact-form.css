@@ -21,13 +21,14 @@
   cursor: pointer;
   text-decoration: none;
   padding: .75em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
   border-radius: 3px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
-  opacity: .9;
-  transition: opacity .25s, -webkit-transform .3s;
-  -webkit-transition: opacity .25s, -webkit-transform .3s;
-  transition: opacity .25s, transform .3s;
-  transition: opacity .25s, transform .3s, -webkit-transform .3s; }
+  opacity: .95;
+  transition: -webkit-transform .3s;
+  -webkit-transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s; }
   .cf-button:hover, .cf-button:focus {
     opacity: 1; }
   .cf-button span:first-of-type {
@@ -106,13 +107,14 @@
   font-size: 1em;
   font-family: inherit;
   -webkit-appearance: none;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+  /*box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);*/
   width: 100%;
-  background: rgba(45, 49, 52, 0.95);
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
   -webkit-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s; }
   .cf-input-field:focus {
-    box-shadow: 0px 0px 0px 2px #C8C8C8;
+    box-shadow: 0px 0px 0px 2px #f5bd23;
     outline: none; }
 
 .cf-input-error {
