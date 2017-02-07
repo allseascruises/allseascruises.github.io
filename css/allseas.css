@@ -32,6 +32,7 @@ section h3.section-subheading {
 #BrowseModal .modal-content {
     background: -webkit-linear-gradient(90deg, rgba(254, 140, 0, .8) 10%, rgba(248, 54, 0, .8) 90%);
     background: -webkit-linear-gradient(0deg, rgba(254, 140, 0, .8) 10%, rgba(248, 54, 0, .8) 90%);
+    background: -webkit-linear-gradient(left, rgba(254, 140, 0, .8) 10%, rgba(248, 54, 0, .8) 90%);
     background: linear-gradient(90deg, rgba(254, 140, 0, .8) 10%, rgba(248, 54, 0, .8) 90%)
 }
 #BrowseModal .close {
@@ -241,6 +242,7 @@ p.large {
     background: -webkit-linear-gradient(90deg, rgba(252, 161, 161, .9) 10%, rgba(255, 205, 180, .9) 90%);
     background: moz-linear-gradient(90deg, rgba(252, 161, 161, .9) 10%, rgba(255, 205, 180, .9) 90%);
     background: -webkit-linear-gradient(0deg, rgba(252, 161, 161, .9) 10%, rgba(255, 205, 180, .9) 90%);
+    background: -webkit-linear-gradient(left, rgba(252, 161, 161, .9) 10%, rgba(255, 205, 180, .9) 90%);
     background: linear-gradient(90deg, rgba(252, 161, 161, .9) 10%, rgba(255, 205, 180, .9) 90%);
     box-shadow: 0 1px 5px rgba(0, 0, 0, .39)
 }
@@ -408,6 +410,7 @@ body {
         background: -webkit-linear-gradient(90deg, rgba(252, 161, 161, .9) 10%, rgba(255, 205, 180, .9) 90%);
         background: moz-linear-gradient(90deg, rgba(252, 161, 161, .9) 10%, rgba(255, 205, 180, .9) 90%);
         background: -webkit-linear-gradient(0deg, rgba(252, 161, 161, .9) 10%, rgba(255, 205, 180, .9) 90%);
+        background: -webkit-linear-gradient(left, rgba(252, 161, 161, .9) 10%, rgba(255, 205, 180, .9) 90%);
         background: linear-gradient(90deg, rgba(252, 161, 161, .9) 10%, rgba(255, 205, 180, .9) 90%);
         box-shadow: 0 1px 5px rgba(0, 0, 0, .39)
     }
@@ -441,8 +444,8 @@ body {
     }
 }
 
-/* -------------------------------- 
-        Testimonial slider 
+/* --------------------------------
+        Testimonial slider
 -------------------------------- */
 ul {
   padding: 0;
@@ -595,7 +598,6 @@ ul {
   text-indent: 100%;
   white-space: nowrap;
   -webkit-transition: background-color 0.2s;
-  -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
 .no-touch .flex-direction-nav li a:hover {
@@ -613,30 +615,18 @@ ul {
 }
 .flex-direction-nav li a::before {
   -webkit-transform: translateY(-35px) rotate(45deg);
-  -moz-transform: translateY(-35px) rotate(45deg);
-  -ms-transform: translateY(-35px) rotate(45deg);
-  -o-transform: translateY(-35px) rotate(45deg);
   transform: translateY(-35px) rotate(45deg);
 }
 .flex-direction-nav li a::after {
   -webkit-transform: translateY(-27px) rotate(-45deg);
-  -moz-transform: translateY(-27px) rotate(-45deg);
-  -ms-transform: translateY(-27px) rotate(-45deg);
-  -o-transform: translateY(-27px) rotate(-45deg);
   transform: translateY(-27px) rotate(-45deg);
 }
 .flex-direction-nav li:last-child a::before {
   -webkit-transform: translateY(-35px) rotate(-45deg);
-  -moz-transform: translateY(-35px) rotate(-45deg);
-  -ms-transform: translateY(-35px) rotate(-45deg);
-  -o-transform: translateY(-35px) rotate(-45deg);
   transform: translateY(-35px) rotate(-45deg);
 }
 .flex-direction-nav li:last-child a::after {
   -webkit-transform: translateY(-27px) rotate(45deg);
-  -moz-transform: translateY(-27px) rotate(45deg);
-  -ms-transform: translateY(-27px) rotate(45deg);
-  -o-transform: translateY(-27px) rotate(45deg);
   transform: translateY(-27px) rotate(45deg);
 }
 @media only screen and (min-width: 768px) {
@@ -648,7 +638,6 @@ ul {
   .flex-direction-nav li a::before, .flex-direction-nav li a::after {
     background-color: #666;
     -webkit-transition: background-color 0.2s;
-    -moz-transition: background-color 0.2s;
     transition: background-color 0.2s;
   }
   .flex-direction-nav li a:hover::before, .flex-direction-nav li a:hover::after {
@@ -674,7 +663,6 @@ ul {
   font-size: 12px;
   font-size: 0.75em;
   -webkit-transition: color, 0.2s;
-  -moz-transition: color, 0.2s;
   transition: color, 0.2s;
 }
 
